@@ -36,8 +36,7 @@ WildCard
 **********************************************************************
 Multiple Condition
 
-=XLOOKUP(J22, C21:C32, XLOOKUP(
-
+=XLOOKUP(J22, C21:C32, XLOOKUP(J23, D20:F20, D21, F32))
 
 
 
