@@ -1,0 +1,34 @@
+ফিল্টার এবং সামইফ'স  ফাংশনের ফর্মুলা 
+******************************************************************
+
+
+* Filter with one condition 
+=FILTER(employee, employee[Gender]="Female") #Here employee is the table name
+
+* Filter with two condition (* AND)
+=FILTER(employee, (employee[Gender]="Male")*(employee[Salary]>25000))
+
+* Filter with OR (+)
+=FILTER(employee, (employee[Gender]="Female")+(employee[Salary]>25000))
+
+
+
+******************************************************************
+
+
+* SUMIFS
+=SUMIFS(country[Profit],country[Country], G38, country[Product], G39)
+
+
+* SUMIFS (<> without)
+=SUMIFS(country[Profit],country[Country],"<>usa")
+
+
+
+
+
+
+
+
+
+
